@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #DDD;
+}
+.App {
+  display: flex;align-items: center;justify-content: center;min-height: 100vh;
+}
+
+.c-player {
+  display: block;
+  background-color: #2b2c31;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+
+}
+
+.c-player p {
+  color: #aaa;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.c-player-details .details-img {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.c-player-details .details-img img{
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 8px rgb(0 0 0 / 20%), -4px -4px 8px hsl(0deg 0% 100% / 6%);
+
+}
+.c-player-details .details-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.c-player-controls {
+  display: flex;align-items: center;justify-content: center;margin-bottom: 30px;
+}
+.c-player-controls .play-btn {
+  display: flex;
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #2b2c31;
+  color:#e8b98b ;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.c-player-controls .skip-btn{
+  background:none;
+  border: none;
+  outline: none;
+  color: #e8b98b;
+  font-size: 18px;
+  cursor: pointer;
+}
+.volumeIcon{
+  color: white;
+}
+.vlme span{
+  cursor: pointer;
+}
